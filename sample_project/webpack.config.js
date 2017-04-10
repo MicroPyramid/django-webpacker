@@ -9,6 +9,7 @@ module.exports = {
   context: __dirname,
    entry: {
     index: './webpack_js/index',
+    login: './webpack_js/login',
   },
   output: {
       path: path.resolve('./static/webpack_bundles/'),

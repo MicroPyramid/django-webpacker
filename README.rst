@@ -1,7 +1,23 @@
 django-webpacker's documentation:
 =====================================
 
-#badges
+.. image:: https://readthedocs.org/projects/django-webpacker/badge/?version=latest
+   :target: http://django-webpacker.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://coveralls.io/repos/github/MicroPyramid/django-webpacker/badge.svg?branch=master
+   :target: https://coveralls.io/github/MicroPyramid/django-webpacker?branch=master
+
+.. image:: https://travis-ci.org/MicroPyramid/django-webpacker.svg?branch=master
+    :target: https://travis-ci.org/MicroPyramid/django-webpacker
+
+.. image:: https://landscape.io/github/MicroPyramid/django-webpacker/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/MicroPyramid/django-webpacker/master
+   :alt: Code Health
+
+.. image:: https://img.shields.io/github/license/micropyramid/django-webpacker.svg
+    :target: https://pypi.python.org/pypi/django-webpacker/
+
 
 Introduction:
 =============

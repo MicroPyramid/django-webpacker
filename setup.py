@@ -22,8 +22,8 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
 
 setup(
     name='django-webpacker',
-    version='0.1',
-    packages=find_packages(exclude=['tests', 'tests.*']),
+    version='0.1.1',
+    packages=find_packages(exclude=[]),
     include_package_data=True,
     description='A django compressor tool which bundles css, js files to single css, js file with webpack',
     long_description=README,
@@ -46,6 +46,6 @@ setup(
     ],
     install_requires=[
         "Django>=1.6.0,<1.10",
-        'boto',
+        'boto'
     ],
 )

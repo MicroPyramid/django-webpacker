@@ -1,0 +1,3 @@
+boto==2.46.1
+Django==1.9.13
+django-webpacker==0.1.1
