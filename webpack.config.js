@@ -2,8 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 
 
@@ -11,8 +9,6 @@ module.exports = {
   context: __dirname,
    entry: {
     index: './webpack_js/index',
-    recruiter_login: './webpack_js/recruiter_login',
-    recruiter: './webpack_js/recruiter',
     dashboard: './webpack_js/dashboard',
   },
   output: {
@@ -58,11 +54,6 @@ module.exports = {
            jQuery: "jquery",
            "window.jQuery": "jquery"
        }),
-
-    new webpack.HotModuleReplacementPlugin({
-      include: /\.min\.js$/,
-      minimize: true
-    }),
 
     new BundleTracker({filename: './webpack-stats.json'}),
     new ExtractTextPlugin({
