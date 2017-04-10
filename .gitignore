@@ -1,0 +1,7 @@
+*.pyc
+*~
+dist
+build
+django_webpacker.egg-info/
+sample_project/node_modules/
+sample_project/static/webpack_bundles/

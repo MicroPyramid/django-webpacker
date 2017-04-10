@@ -1,8 +1,6 @@
 django-webpacker's documentation:
 =====================================
 
-#badges
-
 Introduction:
 =============
 
