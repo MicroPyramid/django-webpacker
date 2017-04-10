@@ -22,7 +22,7 @@ def call_subprocess(command):
 
 
 def upload_to_s3(css_file):
-    bucket_name = 'peeljobs'
+    bucket_name = settings.AWS_BUCKET_NAME
     conn = S3Connection(settings.AWS_ACCESS_KEY_ID, settings.AWS_SECRET_ACCESS_KEY)
 
     folder = 'webpack_bundles/'

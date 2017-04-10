@@ -97,8 +97,15 @@ Installation Procedure
 9. If you use django storages, then add the following variable to settings file to load compressed css, js files from s3.
 
 
-    ENABLE_DJANGO_WEBPACK_AWS = True
+    # AWS details
 
+    AWS_ACCESS_KEY_ID = "Your AWS Access Key"
+
+    AWS_SECRET_ACCESS_KEY = "Your AWS Secret Key"
+
+    AWS_BUCKET_NAME = "Your AWS Bucket Name"
+
+    ENABLE_DJANGO_WEBPACK_AWS = True
 
 Modules used:
 -------------
