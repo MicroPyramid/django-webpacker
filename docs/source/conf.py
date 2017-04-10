@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-web-packer'
+project = u'django-webpacker'
 copyright = u'2016, MicroPyramid'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,7 +176,7 @@ html_static_path = ['nstatic']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django-web-packer-doc'
+htmlhelp_basename = 'django-webpacker-doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'django-web-packer.tex', u'django-web-packer Documentation',
-   u'django-web-packer', 'manual'),
+  ('index', 'django-webpacker.tex', u'django-webpacker Documentation',
+   u'django-webpacker', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -226,8 +226,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-web-packer', u'django-web-packer Documentation',
-     [u'django-web-packer'], 1)
+    ('index', 'django-webpacker', u'django-webpacker Documentation',
+     [u'django-webpacker'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-web-packer', u'django-web-packer Documentation',
-   u'django-web-packer', 'django-web-packer', 'One line description of project.',
+  ('index', 'django-webpacker', u'django-webpacker Documentation',
+   u'django-webpacker', 'django-webpacker', 'One line description of project.',
    'Miscellaneous'),
 ]
 
