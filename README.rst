@@ -80,11 +80,11 @@ Installation Procedure
         "jquery": "^3.2.1"
       }
 
-4. Run npm install to install all package dependencies.
+4. Run npm install to install all package dependencies::
 
     npm install
 
-5. Updates Your html file with the following script, link stylesheet tags.
+5. Updates Your html file with the following script, link stylesheet tags::
 
     <link rel="stylesheet" type="text/css" href="" id="packer_css"/>
 
@@ -110,7 +110,7 @@ Installation Procedure
 8. Run python manage.py compress_css_js_files to generate compressed css, js file. It will updates html file with respective compressed css, js files. Link, script tags will be loaded with compressed css, js files.
 
 
-9. If you use django storages, then add the following variable to settings file to load compressed css, js files from s3.
+9. If you use django storages, then add the following variable to settings file to load compressed css, js files from s3::
 
 
     # AWS details
@@ -122,11 +122,6 @@ Installation Procedure
     AWS_BUCKET_NAME = "Your AWS Bucket Name"
 
     ENABLE_DJANGO_WEBPACK_AWS = True
-
-Modules used:
--------------
-
-    * Django  = 1.9.6
 
 
 We are always looking to help you customize the whole or part of the code as you like.
@@ -140,8 +135,5 @@ We welcome your feedback and support, raise `github ticket`_ if you want to repo
 .. _contact us here: https://micropyramid.com/contact-us/
 .. _github ticket: https://github.com/MicroPyramid/django-webpacker/issues
 .. _Here: https://micropyramid.com/django-development-services/
-
-    or
-
-mailto:: "hello@micropyramid.com"
+or mailto:: "hello@micropyramid.com"
 
