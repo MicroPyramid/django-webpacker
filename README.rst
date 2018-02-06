@@ -18,6 +18,8 @@ django-webpacker's documentation:
 .. image:: https://img.shields.io/github/license/micropyramid/django-webpacker.svg
     :target: https://pypi.python.org/pypi/django-webpacker/
 
+.. image:: https://www.codetriage.com/micropyramid/django-webpacker/badges/users.svg
+    :target: https://www.codetriage.com/micropyramid/django-webpacker
 
 Introduction:
 =============
