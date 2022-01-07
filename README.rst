@@ -52,7 +52,7 @@ Installation Procedure
        '..................'
     ]
 
-3. Run npm init to intialize npm modules and it will create 'package.json' file which will contain package information. Update file with following dependencies::
+3. Run npm init to initialize npm modules and it will create 'package.json' file which will contain package information. Update file with following dependencies::
 
      "devDependencies": {
         "babel": "^6.23.0",
